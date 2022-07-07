@@ -68,7 +68,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
+  ### my markdown
 this is my portfolio website and it requires a sidebar, and 
  normal navbar which will have home,contacts,projects and  
  body whereby: profile-with my details,photo and skills that i can offer.
