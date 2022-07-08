@@ -4,11 +4,11 @@ import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <>
+    <div className='app'>
       <Routes>
         <Route path='/' element={<Navbar/>}/>
       </Routes>
-    </>
+    </div>
   );
 }
 
