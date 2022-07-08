@@ -1,6 +1,7 @@
 import React from 'react'
 // import { Link } from 'react-router-dom'
 import './navbar.css'
+import Sidebar from './Sidebar'
 const Navbar = () => {
   return (
     <div className='container'>
@@ -8,13 +9,16 @@ const Navbar = () => {
       -projects -contacts*/}
        <div className='wrapper'>
         <div className="navbar-cont">
-          <div className="logocont">sirben</div>
-          <div className="navbar">
-          <ul><a href='#'>Home</a></ul>
-          <ul><a href='#'>Projects</a></ul>
-          <ul><a href='#'>Contact</a></ul>
-          <ul><a href='#'>About</a></ul>
-          </div>
+          <div className="logocont"><img src="" alt="sirben" /></div>
+            <div className="navbar">
+              <ul><li className='active'><a href='/#'>Home</a></li></ul>
+              <ul><li><a href='/#'>Projects</a></li></ul>
+              <ul><li><a href='/#'>Contact</a></li></ul>
+              <ul><li><a href='/#'>About</a></li></ul>
+            </div>
+            <div className='sidebar'>
+              <Sidebar/>
+            </div>
         </div>
        </div>
       
