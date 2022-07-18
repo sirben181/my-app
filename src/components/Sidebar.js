@@ -1,8 +1,10 @@
 import React from 'react'
-
+import { useState } from "react"
+import './sidebar.css'
 const Sidebar = () => {
+  const [sideactive,setSideactive]=useState(false)
   return (
-    <div className='sidebar-cont'>
+    <div className={sideactive ? 'sideactive' :'sideinactive'}>
         <div className="sidewrapper">
             <ul><li>Home</li></ul>
             <ul><li>Projects</li></ul>

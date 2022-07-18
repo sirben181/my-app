@@ -17,7 +17,8 @@
 .logocont{
    justify-content: flex-start;
     font-size:25px;
-    /* position: */
+    /* position:absolute; */
+    top:0;
 }
 .navbar{
     display:flex;
@@ -33,4 +34,14 @@
 .navbar ul li a{text-decoration: none;
 color:#000;
 }
-.navbar ul li:hover{color:coral;} 
+.navbar ul li:hover{color:coral;
+}
+.sidebar-cont{display:flex;
+    position:relative;
+} 
+.menu{position:absolute;
+top:50px;
+left:50px;
+z-index:10;
+color:#fff;
+font-size: 26px;}

@@ -1,0 +1,33 @@
+.sidebar-cont{
+    display:flex;
+    flex-direction:column;
+    width:300px;
+    height:100vh;
+    background:coral;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.sidewrapper{
+    margin-top:60px;
+    margin-right:50px;
+}
+.sidewrapper ul{list-style:none;}
+.sidewrapper ul li{font-size:22px;
+    padding:15px;
+     border-radius: 5px;
+    }
+.sidewrapper ul li:hover{
+    background-color:blue;
+    width:100%;
+}
+.sideinactive{
+    position:absolute;
+    left:-300px;
+    top:0;
+    }
+.sideactive{
+    position:absolute;
+    top:0;
+    left:0
+}
