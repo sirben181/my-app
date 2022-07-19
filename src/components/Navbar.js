@@ -5,13 +5,17 @@ import * as AiIcons from 'react-icons/ai'
 import {SidebarData} from './SidebarData'
 const Navbar = () =>{
   const[sidebar,setSidebar]=useState(false)
-  
+  const showSidebar=()=>{
+    setSidebar(!sidebar)
+  }
   return (
     <div className='container'>
       <div className="navbar">
           <div className="menu">
             <div className="menubars">
-              <AiIcons.AiOutlineMenu className='menu-icon'/>
+              <Link to='#' onClick={()=>showSidebar()}>
+              <AiIcons.AiOutlineMenu className='menu-icon'  />
+              </Link>
             </div>
             <div className="nav-menu">
                <ul className="nav-menu-lists">
@@ -27,9 +31,9 @@ const Navbar = () =>{
           </div>
           <div className={sidebar ? 'nav-menu active':'nav-menu'}>
                <ul className="sidebar-icon">
-                    <li >
-                      <Link to='#'>
-                          <AiIcons.AiOutlineClose className="menu-icon" onClick={()=>setSidebar(!sidebar)}/>
+                    <li>
+                      <Link to='#'  onClick={()=>setSidebar(!sidebar)}>
+                          <AiIcons.AiOutlineClose className="menu-icon"/>
                       </Link>
                     </li>
                     {SidebarData.map((item,index)=>{
