@@ -14,7 +14,7 @@ export const SidebarData = [
     title:'Products',
     path:'/products',
     cName:'nav-text',
-    icon:<GiIcons.GiMilkCarton />, 
+    icon: <GiIcons.GiMilkCarton />, 
   },
   {
     title:'Contacts',

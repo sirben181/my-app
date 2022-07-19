@@ -10,8 +10,8 @@ import About from './pages/About';
 function App() {
   return (
     <>
- <Navbar/>
  <Router>
+ <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
          <Route path='/products' element={<Products/>}/>
