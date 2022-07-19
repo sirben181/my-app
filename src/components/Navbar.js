@@ -1,31 +1,31 @@
-import React from 'react'
-// import { Link } from 'react-router-dom'
-import './navbar.css'
-import Sidebar from './Sidebar'
-import {FcMenu} from 'react-icons/fc'
+import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
+import * as AiIcons from 'react-icons/ai'
+import {SidebarData} from './SidebarData'
 const Navbar = () =>{
+  
   return (
     <div className='container'>
-      {/* here need alogo on the right and then the navbar with -home 
-      -projects -contacts*/}
-       <div className='wrapper'>
-        <div className="navbar-cont">
-          <div className="logocont"><img src="" alt="sirben" /></div>
-            <div className="navbar">
-                <ul><li className='active'><a href='/#'>Home</a></li></ul>
-                <ul><li><a href='/#'>Projects</a></li></ul>
-                <ul><li><a href='/#'>Contact</a></li></ul>
-                <ul><li><a href='/#'>About</a></li></ul>
-            </div>
-            <div className='sidebar-cont'>
-              <div className="menu">
-                 <FcMenu/>
-              </div>
-              <Sidebar/>
-            </div>
+      <div className="navbar">
+        <div className="menu">
+          <div className="menubars">
+            <AiIcons.AiOutlineMenu className='menu-icon'/>
+          </div>
+          <div className="nav-menu"></div>
+
         </div>
-       </div>
-      
+        <div className="sidebar">
+          <ul className="sidebar-icon">
+            <li ><AiIcons.AiOutlineClose className="menu-icon"/></li>
+          </ul>
+          <ul className="sidebar-items">
+            {SidebarData.map((item)=>{
+              <li key={}></li>
+            })}
+          </ul>
+        </div>
+      </div>
+    
     </div>
   )
 }

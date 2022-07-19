@@ -21,13 +21,3 @@
     background-color:blue;
     width:100%;
 }
-.sideinactive{
-    position:absolute;
-    left:-300px;
-    top:0;
-    }
-.sideactive{
-    position:absolute;
-    top:0;
-    left:0
-}

@@ -1,14 +1,25 @@
-import {Routes,Route} from 'react-router-dom';
+
+import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import Products from './pages/Projects';
+import Contacts from './pages/Contacts';
+import About from './pages/About';
 
 function App() {
   return (
-    <div className='app'>
+    <>
+ <Navbar/>
+ <Router>
       <Routes>
-        <Route path='/' element={<Navbar/>}/>
+        <Route path='/' element={<Home/>}/>
+         <Route path='/products' element={<Products/>}/>
+        <Route path='/contacts' element={<Contacts/>}/>
+        <Route path='/about' element={<About/>}/>
       </Routes>
-    </div>
+ </Router>
+    </>
   );
 }
 
