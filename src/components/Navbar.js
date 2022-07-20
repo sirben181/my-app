@@ -12,19 +12,20 @@ const Navbar = () =>{
     <div className='container'>
       <div className="navbar">
           <div className="menu">
-            <div className="menubars">
-              <Link to='#' onClick={()=>showSidebar()}>
-              <AiIcons.AiOutlineMenu className='menu-icon'  />
-              </Link>
+             <div className="menubars">
+               <Link to='#' onClick={()=>showSidebar()}>
+                 <AiIcons.AiOutlineMenu className='menu-icon'  />
+               </Link>
             </div>
             <div className="navmenu">
                <ul className="nav-menu-lists">
-               {SidebarData.map((item,index)=>{
+                 {SidebarData.map((item,index)=>{
                       return(
                       <li key={index}>
                           <Link to={item.path}> {item.icon} <span>{item.title}</span></Link>
                       </li>)
-                    })}
+                      })
+                    }
                </ul>
             </div>
 
@@ -36,7 +37,7 @@ const Navbar = () =>{
                           <AiIcons.AiOutlineClose className="menu-icon close"/>
                       </Link>
                     </li>
-                    {SidebarData.map((item,index)=>{
+                     {SidebarData.map((item,index)=>{
                       return(
                       <li key={index}  onClick={()=>setSidebar(!sidebar)} className='sidebar-lists'>
                           <Link to={item.path}> {item.icon} <span>{item.title}</span></Link>
