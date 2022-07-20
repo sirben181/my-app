@@ -60,12 +60,12 @@ align-items:center;
 }
 .sidebar-lists a{text-decoration:none;
 color:#f5f5f5;
-border-radius:5px;
-width:100%;
+
 }
 .sidebar-lists span{
     margin-left:20px;
 }
-.sidebar-lists a:hover{
-background-color:#0c2212;
+.sidebar-lists:hover{
+background-color:#164d24;
+border-radius:5px;
 }

@@ -11,8 +11,8 @@ export const SidebarData = [
     icon:<FaIcons.FaHome />,
   },
   {
-    title:'Products',
-    path:'/products',
+    title:'Projects',
+    path:'/projects',
     cName:'nav-text',
     icon: <GiIcons.GiMilkCarton />, 
   },

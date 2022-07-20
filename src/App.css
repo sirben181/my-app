@@ -3,3 +3,10 @@
   margin:0;
   padding:0;
 }
+.Home,.Projects, .About, .Contacts{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  min-height:100vh;
+  
+}
