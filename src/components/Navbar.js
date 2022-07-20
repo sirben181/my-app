@@ -17,7 +17,7 @@ const Navbar = () =>{
               <AiIcons.AiOutlineMenu className='menu-icon'  />
               </Link>
             </div>
-            <div className="nav-menu">
+            <div className="navmenu">
                <ul className="nav-menu-lists">
                {SidebarData.map((item,index)=>{
                       return(
@@ -33,12 +33,12 @@ const Navbar = () =>{
                <ul className="sidebar-icon">
                     <li>
                       <Link to='#'  onClick={()=>setSidebar(!sidebar)}>
-                          <AiIcons.AiOutlineClose className="menu-icon"/>
+                          <AiIcons.AiOutlineClose className="menu-icon close"/>
                       </Link>
                     </li>
                     {SidebarData.map((item,index)=>{
                       return(
-                      <li key={index}>
+                      <li key={index}  onClick={()=>setSidebar(!sidebar)} className='sidebar-lists'>
                           <Link to={item.path}> {item.icon} <span>{item.title}</span></Link>
                       </li>)
                     })}
