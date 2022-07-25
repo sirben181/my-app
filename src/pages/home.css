@@ -1,0 +1,9 @@
+*{box-sizing: border-box;}
+.home-container{
+    display:flex;
+    flex-direction:column;
+    /* margin:20px; */
+    min-height:100vh;
+    background:#54b;
+
+}
