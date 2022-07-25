@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import *as BsIcons from 'react-icons/bs'
 import './footer.css'
 const Footer = () => {
   return (
@@ -17,7 +18,7 @@ const Footer = () => {
                             <li><Link to='#'>Donate</Link></li>
                         </ul>
                     </div>
-                    <div className="">
+                    <div className="support">
                         <ul>
                             <li><Link  to='#'>Affliation</Link></li>
                             <li><Link to='#'>collaborate</Link></li>
@@ -34,10 +35,10 @@ const Footer = () => {
                 </div>
                     <div className="social">
                         <ul>
-                            <li><Link  to='#'>facebook</Link></li>
-                            <li><Link to='#'>Twitter</Link></li>
-                            <li><Link to='#'>LinkedIn</Link></li>
-                            <li><Link to='#'>Youtube</Link></li>
+                            <li><Link  to='#'><BsIcons.BsFacebook className='fb'/></Link></li>
+                            <li><Link to='#'><BsIcons.BsTwitter className='twita'/></Link></li>
+                            <li><Link to='#'><BsIcons.BsLinkedin className='linked'/></Link></li>
+                            <li><Link to='#'><BsIcons.BsYoutube className='youtube'/></Link></li>
                         </ul>
                     </div>
               

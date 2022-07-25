@@ -13,5 +13,47 @@
     display:flex;
     flex-direction:column;
     /* justify-content:center; */
+}
+.footer{display:flex;
+flex-direction:column;
+}
+.footer-links{
+    display:flex;
 
+}
+.support{
+    margin-left:20px;
+}
+.support ul{list-style:none;}
+.support ul a{text-decoration:none;
+color:black;}
+.support ul a:hover{
+    color:coral;
+}
+.social{
+    display:flex;
+    
+}
+
+.social ul{list-style:none;
+display:flex;}
+.social ul li{
+    margin:0 20px 0 20px;
+    font-size:24px;
+}
+.social ul li a:hover{
+    background:#fff;
+}
+.social ul li a .fb{
+    color:rgb(51, 80, 248);
+    
+}
+.social ul li a .twita{
+    color:rgb(37, 37, 184);
+}
+.social ul li a .linked{
+    color:rgb(17, 17, 170);
+}
+.social ul li a .youtube{
+    color:red;
 }
