@@ -1,0 +1,17 @@
+*{box-sizing:border-box;
+    margin:0;
+}
+.footer-container{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    background:rgb(199, 191, 245);
+    min-height:40vh;
+    width:100%;
+}
+.footer-wrapper{
+    display:flex;
+    flex-direction:column;
+    /* justify-content:center; */
+
+}
