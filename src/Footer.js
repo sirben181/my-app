@@ -35,11 +35,11 @@ const Footer = () => {
                 </div>
                     <div className="social">
                         <ul>
-                            <li><Link  to='www.facebook.com/benson.kamau.3766' target='_blank'><BsIcons.BsFacebook className='fb'/></Link></li>
-                            <li><Link to='https://twitter.com/benson_kamaa'><BsIcons.BsTwitter className='twita'/></Link></li>
-                            <li><Link to='https://www.linkedin.com/in/benson-kamau-5b54911a5/'><BsIcons.BsLinkedin className='linked'/></Link></li>
-                            <li><Link to='www.youtube.com'><BsIcons.BsYoutube className='youtube'/></Link></li>
-                            <li><Link to='https://github.com/sirben181'><BsIcons.BsGithub className='github'/></Link></li>
+                            <li><a  href='https://www.facebook.com/benson.kamau.3766' target='_blank'  rel="noreferrer"><BsIcons.BsFacebook className='fb'/></a></li>
+                            <li><a href='https://twitter.com/benson_kamaa' target='_blank'  rel="noreferrer"><BsIcons.BsTwitter className='twita'/></a></li>
+                            <li><a href='https://www.linkedin.com/in/benson-kamau-5b54911a5/' target='_blank'  rel="noreferrer"><BsIcons.BsLinkedin className='linked'/></a></li>
+                            <li><a href='https://www.youtube.com' target='_blank'  rel="noreferrer"><BsIcons.BsYoutube className='youtube'/></a></li>
+                            <li><a href='https://github.com/sirben181' target='_blank'  rel="noreferrer"><BsIcons.BsGithub className='github'/></a></li>
                         </ul>
                     </div>
               

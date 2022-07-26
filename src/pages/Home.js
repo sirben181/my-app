@@ -3,11 +3,10 @@ import './home.css'
 const Home = () => {
   return (
     <div className='home-container'>
-        <h1>Home</h1>
-        <p>this is the home page</p>
          <div className="home-wrapper">
             <div className="home">
-                  <p>hello there</p>
+            <h2>Home</h2>
+              <img src="" alt="" />
             </div>
          </div>
     </div>

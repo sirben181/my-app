@@ -1,0 +1,16 @@
+*{box-sizing: border-box;}
+.contact-container{display:flex;
+flex-direction:column;
+/* margin:20px; */
+min-height:100vh;
+width:100%;
+
+}
+.contact-wrapper{
+display:flex;
+flex-direction:column;
+margin:20px;
+min-height:100vh;
+width:100%;
+background:rgb(199, 191, 245);
+border-radius:15px;}
