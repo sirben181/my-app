@@ -2,6 +2,8 @@
   box-sizing: border-box;
   margin:0;
   padding:0;
+  /* width:100%; */
+
 }
 .home-container, .project-container, .contact-container, .about-container{
      display:flex;
