@@ -12,7 +12,13 @@
 .footer-wrapper{
     display:flex;
     flex-direction:column;
-    /* justify-content:center; */
+    justify-content:center;
+    /* position:relative; */
+}
+.footer-header{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
 }
 .footer{display:flex;
 flex-direction:column;
@@ -22,7 +28,8 @@ flex-direction:column;
 
 }
 .support{
-    margin-left:20px;
+    margin:10px 40px 0 40px;
+   font-weight:bold;
 }
 .support ul{list-style:none;}
 .support ul a{text-decoration:none;
@@ -32,6 +39,8 @@ color:black;}
 }
 .social{
     display:flex;
+    margin-top:30px;
+    margin-bottom:30px;
     
 }
 
@@ -41,19 +50,39 @@ display:flex;}
     margin:0 20px 0 20px;
     font-size:24px;
 }
-.social ul li a:hover{
-    background:#fff;
-}
+
 .social ul li a .fb{
-    color:rgb(51, 80, 248);
-    
+    color:rgb(51, 80, 248);  
+}
+.social ul li a .fb:hover{
+   zoom:1.1;
 }
 .social ul li a .twita{
     color:rgb(37, 37, 184);
 }
+.social ul li a .twita:hover{
+    zoom:1.1;
+ }
 .social ul li a .linked{
     color:rgb(17, 17, 170);
 }
+.social ul li a .linked:hover{
+    zoom:1.1;
+ }
 .social ul li a .youtube{
     color:red;
 }
+.social ul li a .youtube:hover{
+    zoom:1.1;
+ }
+.social ul li a .github{
+    color:black;
+}
+.social ul li a .github:hover{
+    zoom:1.1;
+ }
+.copyright{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    }
