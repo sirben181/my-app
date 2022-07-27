@@ -28,3 +28,25 @@
     border-radius:10px;
     /* padding:60px 0 0 40px; */
 }
+.projects{
+    display:flex;
+    flex-direction: column;
+    margin:50px 30px 30px 30px;
+    
+}
+.projects h3{
+    border-bottom: 5px solid rgb(27, 184, 35);
+    text-align:center;
+}
+.cards{
+    display:flex;
+}
+.project-card{
+    background:rgb(27, 184, 35);
+    width:50vh;
+    height:40vh;
+    margin:20px;
+    justify-content: flex-start;
+    border-radius:8px;
+
+}

@@ -10,9 +10,30 @@ const Home = () => {
               <img src={home} alt="swafi"/>
             </div>
             <div className="projects">
-              <h3>welcome <strong>Here</strong> are some of our projects that we have done so far</h3>
-              <div className="project-card">
-                hello this is the project
+              <h3>welcome to Our Projects</h3>
+              <div className="cards">
+                <div className="project-card">
+                  hello this is the project
+                </div>
+                <div className="project-card">
+                  hello this is the project
+                </div>
+              </div>
+              <div className="cards">
+                <div className="project-card">
+                  hello this is the project
+                </div>
+                <div className="project-card">
+                  hello this is the project
+                </div>
+              </div>
+              <div className="cards">
+                <div className="project-card">
+                  hello this is the project
+                </div>
+                <div className="project-card">
+                  hello this is the project
+                </div>
               </div>
             </div>
          </div>
