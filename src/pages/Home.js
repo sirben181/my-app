@@ -6,8 +6,8 @@ const Home = () => {
     <div className='home-container'>
          <div className="home-wrapper">
             <div className="home">
-            <h2>Home</h2>
               <img src={home} alt="swafi"/>
+              <p>welcome here to be <br /> the best page here</p>
             </div>
             <div className="projects">
               <h3>welcome to Our Projects</h3>
