@@ -56,7 +56,41 @@
     width:50vh;
     height:40vh;
     margin:20px;
-    justify-content: flex-start;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
     border-radius:8px;
 
+}
+.project-card-header h3{
+text-align:center;
+color:#fff;
+}
+.card-body{
+    display:flex;
+    flex-direction:column;
+
+}
+.card-body button {
+    display:block;
+    border:none;
+    outline:none;
+    padding:8px 10px;
+    background-color:rgb(11, 38, 156);
+    border-radius:6px;
+    color:#fff;
+    font-size:18px;
+
+}
+.card-body a{
+    text-decoration: none;
+    color:#fff;
+    
+}
+.card-body button a:hover{
+    color: #000;
+}
+.card-body button:hover{
+background:#fff;
+color:#000;
 }
