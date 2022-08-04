@@ -1,5 +1,6 @@
 import Avatar from '@mui/material/Avatar'
 import React from 'react'
+// import { Link } from 'react-router-dom'
 import prof from '../images/bens.webp'
 import './profile.css'
 const Profile = () => {
@@ -40,11 +41,12 @@ const Profile = () => {
                                     <li>MongoDB</li>
                                     <li>Firebase</li>
                                 </ul>
-                
                                 </div>
 
                     </div>
                 </div>
+                <p className='hitmeup'> <a  rel="noreferrer" href='https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRlQHcsRdSRmXtNpZgQQPKCTBtvnXJkXvpjqtDxXtKggNrlrpwsQvNVVTbbCqXdMdSfqFxl' target='_blank'>Hire</a></p>
+
             </div>
         </div>
       

@@ -70,11 +70,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
   ### my markdown
 this is my portfolio website and it requires a sidebar, and 
- normal navbar which will have home,contacts,projects and  
+ normal navbar which will have home
+ home:
+ will have a landing page, snapshot of profile, snapshot of projects, shortform of blogposts that willhave link to the posts themselves. 
+ will,blog:
+ this will have blogs with author and comment section
+ they will be categorized on the basis of title,content,and other things.
+ ,projects:awesome projects that we have built explained and then linked to the blog if its one of the done project.
  body whereby: profile-with my details,photo and skills that i can offer.
  my earlier projects complete.
+
  even if its a single page website well and good.
- a contact form maybe.
+ a blog will consist of posts that will be fetched from the database like mongo db or firestore
+ these posts will have a place for comments and likes, post itself, author{ photo,name and what he does.}
+
  a footer with some links and social media icons( these should be in the profile somewhere or here in the footer.)
  this should be a fullstack application with a database such as mongo db or firestore database. and the hosting should be in netlify, github or any other free hosting.
  when finances allow then i will buy a host, domainb name and upload the site to make an online presence.
