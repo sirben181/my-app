@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+.profile-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    background:#f45;
+    margin:20px;
+    max-width:100%;
+    width:auto;
+}
+.profile-wrapper{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+    padding:20px;
+}
+.profile{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}

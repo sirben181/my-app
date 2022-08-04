@@ -20,7 +20,7 @@ const Home = () => {
                                 <h3> hello this is the project </h3>
                               </div>
                               <div className="card-body">
-                                <img src="" alt="image is here" />
+                                <img src="" alt="is here" />
                                   <Link to='/projects/project-1'>
                                 <button className='btn-primary'>
                                     Find out more
@@ -33,7 +33,7 @@ const Home = () => {
                                 <h3> hello this is the project </h3>
                               </div>
                               <div className="card-body">
-                                <img src="" alt="image is here" />
+                                <img src="" alt="is here" />
                                   <Link to='/projects/project-2'>
                                 <button className='btn-primary'>
                                     Find out more
@@ -48,7 +48,7 @@ const Home = () => {
                                 <h3> hello this is the project </h3>
                               </div>
                               <div className="card-body">
-                                <img src="" alt="image is here" />
+                                <img src="" alt="is here" />
                                   <Link to='/projects/project-3'>
                                 <button className='btn-primary'>
                                     Find out more
@@ -61,7 +61,7 @@ const Home = () => {
                                 <h3> hello this is the project </h3>
                               </div>
                               <div className="card-body">
-                                <img src="" alt="image is here" />
+                                <img src="" alt="is here" />
                                   <Link to='/projects/project-4'>
                                 <button className='btn-primary'>
                                     Find out more
@@ -76,7 +76,7 @@ const Home = () => {
                                 <h3> hello this is the project </h3>
                               </div>
                               <div className="card-body">
-                                <img src="" alt="image is here" />
+                                <img src="" alt="is here" />
                                   <Link to='/projects'>
                                 <button className='btn-primary'>
                                     Find out more
@@ -89,7 +89,7 @@ const Home = () => {
                                 <h3> hello this is the project </h3>
                               </div>
                               <div className="card-body">
-                                <img src="" alt="image is here" />
+                                <img src="" alt="is here" />
                                   <Link to='/projects'>
                                 <button className='btn-primary'>
                                     Find out more

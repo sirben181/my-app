@@ -17,8 +17,8 @@ export const SidebarData = [
     icon: <GiIcons.GiMilkCarton />, 
   },
   {
-    title:'Contacts',
-    path:'/contacts',
+    title:'Blog',
+    path:'/blog',
     cName:'nav-text',
     icon:<MdIcons.MdOutlineContactPhone />,
   },

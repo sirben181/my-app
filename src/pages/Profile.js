@@ -1,5 +1,6 @@
 import Avatar from '@mui/material/Avatar'
 import React from 'react'
+import './profile.css'
 const Profile = () => {
   return (
     <div className='profile-container'>

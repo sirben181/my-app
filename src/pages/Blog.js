@@ -1,6 +1,6 @@
 import React from 'react'
 import './contacts.css'
-const Contacts = () => {
+const Blog = () => {
   return (
     <div className='contact-container'>
       <div className="contact-wrapper">
@@ -11,4 +11,4 @@ const Contacts = () => {
   )
 }
 
-export default Contacts
+export default Blog
