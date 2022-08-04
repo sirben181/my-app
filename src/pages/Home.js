@@ -13,7 +13,7 @@ const Home = () => {
               </div>
               <Profile />
               <div className="projects">
-                  <h3>welcome to Our Projects</h3>
+                  <h3>welcome to <span>  Our Projects </span></h3>
                   <div className="cards">
                         <div className="project-card">
                             <div className="project-card-header">

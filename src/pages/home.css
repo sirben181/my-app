@@ -5,6 +5,7 @@
     margin:0 50px 0 50px;
     /* min-height:100vh; */
     width:100%;
+   
 }
 .home-wrapper{
     display:flex;
@@ -19,6 +20,7 @@
     overflow: hidden;
     
 }
+.home{ border-bottom:solid 5px rgb(27, 184, 35) ;}
 .home img{display:flex;
     flex-direction: column;
     justify-content:center;
@@ -42,11 +44,15 @@
     display:flex;
     flex-direction: column;
     margin:50px 30px 30px 30px;
+    border-bottom:solid 5px rgb(27, 184, 35) ;
     
 }
 .projects h3{
-    border-bottom: 5px solid rgb(27, 184, 35);
+   text-decoration: underline 5px rgb(27, 184, 35);
     text-align:center;
+}
+.projects h3 span{
+    font-size:35px;
 }
 .cards{
     display:flex;
