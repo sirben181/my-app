@@ -12,6 +12,10 @@ const Projects = () => {
             <h3>Length converter</h3>
             <div className="converter-body">
               <img src={converter} alt="converter here" />
+              <p>This converter converts length from the smallest unit that is commonly used. You can convert from mm all the way to the mile.
+              You can interconvert  them anyhowly.
+              this is done using a little javascript to make the conversion
+              </p>
               <a  href="https://www.github.com/sirben181/converter" target='_blank' rel="noreferrer">Github link</a>
             </div>
           </div>
