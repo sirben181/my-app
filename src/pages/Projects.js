@@ -11,9 +11,8 @@ const Projects = () => {
           <div className="converter">
             <h3>Length converter</h3>
             <div className="converter-body">
-              <img src={converter} alt="" />
-            
-              <a href="https://www.github.com/sirben181/converter" target='_blank'>Github link</a>
+              <img src={converter} alt="converter here" />
+              <a  href="https://www.github.com/sirben181/converter" target='_blank' rel="noreferrer">Github link</a>
             </div>
           </div>
         </div>
