@@ -40,18 +40,18 @@
     font-size:39px;
     font-weight:800;
 }
-.projects{
+.home-projects{
     display:flex;
     flex-direction: column;
     margin:50px 30px 30px 30px;
     border-bottom:solid 5px rgb(27, 184, 35) ;
     
 }
-.projects h3{
+.home-projects h3{
    text-decoration: underline 5px rgb(27, 184, 35);
     text-align:center;
 }
-.projects h3 span{
+.home-projects h3 span{
     font-size:35px;
 }
 .cards{
@@ -75,6 +75,16 @@ color:#fff;
 .card-body{
     display:flex;
     flex-direction:column;
+
+}
+.card-body img{
+    width:40vh;
+    height:30vh;
+    background:transparent;
+    /* display:flex;
+    justify-content: center;
+    align-items:center; */
+   /* margin-bottom:30px; */
 
 }
 .card-body button {

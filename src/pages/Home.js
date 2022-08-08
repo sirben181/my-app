@@ -1,6 +1,7 @@
 import React from 'react'
 import './home.css'
 import home from '../images/bg-pic.jpg'
+import converter from '../images/projects/conver2.png'
 import Profile from './Profile'
 import { Link } from 'react-router-dom'
 const Home = () => {
@@ -12,16 +13,16 @@ const Home = () => {
                 <p>welcome and lets <br/>learn web development together</p>
               </div>
               <Profile />
-              <div className="projects">
+              <div className="home-projects">
                   <h3>welcome to <span>  Our Projects </span></h3>
                   <div className="cards">
                         <div className="project-card">
                             <div className="project-card-header">
-                                <h3> hello this is the project </h3>
+                                <h3> The length converter</h3>
                               </div>
                               <div className="card-body">
-                                <img src="" alt="is here" />
-                                  <Link to='/projects/project-1'>
+                                <img src={converter} alt="is here" />
+                                  <Link to='/projects'>
                                 <button className='btn-primary'>
                                     Find out more
                                   </button>
@@ -34,7 +35,7 @@ const Home = () => {
                               </div>
                               <div className="card-body">
                                 <img src="" alt="is here" />
-                                  <Link to='/projects/project-2'>
+                                  <Link to='/projects'>
                                 <button className='btn-primary'>
                                     Find out more
                                   </button>
@@ -49,7 +50,7 @@ const Home = () => {
                               </div>
                               <div className="card-body">
                                 <img src="" alt="is here" />
-                                  <Link to='/projects/project-3'>
+                                  <Link to='/projects'>
                                 <button className='btn-primary'>
                                     Find out more
                                   </button>
@@ -62,7 +63,7 @@ const Home = () => {
                               </div>
                               <div className="card-body">
                                 <img src="" alt="is here" />
-                                  <Link to='/projects/project-4'>
+                                  <Link to='/projects'>
                                 <button className='btn-primary'>
                                     Find out more
                                   </button>
