@@ -28,3 +28,8 @@ const Projects = () => {
 }
 
 export default Projects
+// db: have a collections of projects which will be fetched to the posts page..such that they will be fetched in an assending order so that the oldest will be the bottom.
+  // we can have a featured posts--to be display into the home page- this should be like a simple posts thing
+  // in the db we can have a collection where by we fetch the profile and the home page too..
+  // a collections of blogs...
+  //

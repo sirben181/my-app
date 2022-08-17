@@ -34,7 +34,7 @@ const Home = () => {
                                 <h3> hello this is the project </h3>
                               </div>
                               <div className="card-body">
-                                <img src="" alt="is here" />
+                                <img src={converter} alt="is here" />
                                   <Link to='/projects'>
                                 <button className='btn-primary'>
                                     Find out more
@@ -49,7 +49,7 @@ const Home = () => {
                                 <h3> hello this is the project </h3>
                               </div>
                               <div className="card-body">
-                                <img src="" alt="is here" />
+                                <img src={converter} alt="is here" />
                                   <Link to='/projects'>
                                 <button className='btn-primary'>
                                     Find out more
@@ -62,7 +62,7 @@ const Home = () => {
                                 <h3> hello this is the project </h3>
                               </div>
                               <div className="card-body">
-                                <img src="" alt="is here" />
+                                <img src={converter} alt="is here" />
                                   <Link to='/projects'>
                                 <button className='btn-primary'>
                                     Find out more
@@ -77,7 +77,7 @@ const Home = () => {
                                 <h3> hello this is the project </h3>
                               </div>
                               <div className="card-body">
-                                <img src="" alt="is here" />
+                                <img src={converter} alt="is here" />
                                   <Link to='/projects'>
                                 <button className='btn-primary'>
                                     Find out more
@@ -90,7 +90,7 @@ const Home = () => {
                                 <h3> hello this is the project </h3>
                               </div>
                               <div className="card-body">
-                                <img src="" alt="is here" />
+                                <img src={converter} alt="is here" />
                                   <Link to='/projects'>
                                 <button className='btn-primary'>
                                     Find out more
