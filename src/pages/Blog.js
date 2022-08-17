@@ -1,10 +1,10 @@
 import React from 'react'
-import './contacts.css'
+import './blog.css'
 const Blog = () => {
   return (
-    <div className='contact-container'>
-      <div className="contact-wrapper">
-      <h1>Contacts</h1>
+    <div className='blog-container'>
+      <div className="blog-wrapper">
+      <h1>Blog</h1>
 
       </div>
     </div>

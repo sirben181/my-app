@@ -90,3 +90,12 @@ padding-top:20px;}
     color:rgb(167, 167, 25);
     flex-direction:center;
 }
+.hitmeup a{
+    color:#fff;
+    text-decoration:none;
+    font-size:18px;
+}
+.hitmeup a:hover{
+    /* background: #000; */
+    color:coral;
+}

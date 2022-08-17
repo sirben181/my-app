@@ -1,6 +1,7 @@
 import React from 'react'
 import './projects.css'
 import  converter from '../images/projects/conver2.png'
+import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 const Projects = () => {
   return (
     <div className='project-container'>
@@ -16,7 +17,60 @@ const Projects = () => {
               You can interconvert  them anyhowly.
               this is done using a little javascript to make the conversion
               </p>
-              <a  href="https://www.github.com/sirben181/converter" target='_blank' rel="noreferrer">Github link</a>
+             <span>Click here for the github link<ArrowRightAltIcon className='arrowicon'/> <a  href="https://www.github.com/sirben181/converter" target='_blank' rel="noreferrer">Github link</a></span>
+            </div>
+          </div>
+          <div className="converter">
+            <h3>Length converter</h3>
+            <div className="converter-body">
+              <img src={converter} alt="converter here" />
+              <p>This converter converts length from the smallest unit that is commonly used. You can convert from mm all the way to the mile.
+              You can interconvert  them anyhowly.
+              this is done using a little javascript to make the conversion
+              </p>
+             <span>Click here for the github link<ArrowRightAltIcon className='arrowicon'/> <a  href="https://www.github.com/sirben181/converter" target='_blank' rel="noreferrer">Github link</a></span>
+            </div>
+          </div>
+          <div className="converter">
+            <h3>Length converter</h3>
+            <div className="converter-body">
+              <img src={converter} alt="converter here" />
+              <p>This converter converts length from the smallest unit that is commonly used. You can convert from mm all the way to the mile.
+              You can interconvert  them anyhowly.
+              this is done using a little javascript to make the conversion
+              </p>
+             <span>Click here for the github link<ArrowRightAltIcon className='arrowicon'/> <a  href="https://www.github.com/sirben181/converter" target='_blank' rel="noreferrer">Github link</a></span>
+            </div>
+          </div>
+          <div className="converter">
+            <h3>Length converter</h3>
+            <div className="converter-body">
+              <img src={converter} alt="converter here" />
+              <p>This converter converts length from the smallest unit that is commonly used. You can convert from mm all the way to the mile.
+              You can interconvert  them anyhowly.
+              this is done using a little javascript to make the conversion
+              </p>
+             <span>Click here for the github link<ArrowRightAltIcon className='arrowicon'/> <a  href="https://www.github.com/sirben181/converter" target='_blank' rel="noreferrer">Github link</a></span>
+            </div>
+          </div> <div className="converter">
+            <h3>Length converter</h3>
+            <div className="converter-body">
+              <img src={converter} alt="converter here" />
+              <p>This converter converts length from the smallest unit that is commonly used. You can convert from mm all the way to the mile.
+              You can interconvert  them anyhowly.
+              this is done using a little javascript to make the conversion
+              </p>
+             <span>Click here for the github link<ArrowRightAltIcon className='arrowicon'/> <a  href="https://www.github.com/sirben181/converter" target='_blank' rel="noreferrer">Github link</a></span>
+            </div>
+          </div> <div className="converter">
+            <h3>Length converter</h3>
+            <div className="converter-body">
+              <img src={converter} alt="converter here" />
+              <p>This converter converts length from the smallest unit that is commonly used. You can convert from mm all the way to the mile.
+              You can interconvert  them anyhowly.
+              this is done using a little javascript to make the conversion
+              </p>
+             <span>Click here for the github link<ArrowRightAltIcon className='arrowicon'/> <a  href="https://www.github.com/sirben181/converter" target='_blank' rel="noreferrer">Github link</a></span>
             </div>
           </div>
         </div>

@@ -86,6 +86,6 @@ this is my portfolio website and it requires a sidebar, and
 
  a footer with some links and social media icons( these should be in the profile somewhere or here in the footer.)
  this should be a fullstack application with a database such as mongo db or firestore database. and the hosting should be in netlify, github or any other free hosting.
- when finances allow then i will buy a host, domainb name and upload the site to make an online presence.
+  then i will buy a host, domain name and upload the site to make an online presence.
  using reactjs,react-icons,material ui
  d
