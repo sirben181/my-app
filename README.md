@@ -73,7 +73,12 @@ this is my portfolio website and it requires a sidebar, and
  normal navbar which will have home
  home:
  will have a landing page, snapshot of profile, snapshot of projects, shortform of blogposts that willhave link to the posts themselves. 
- will,blog:
+ will,
+ blog:
+ features of a gfood blog:
+ #White Space around the content
+ #the blog should have some kind of navigation
+ 
  this will have blogs with author and comment section
  they will be categorized on the basis of title,content,and other things.
  ,projects:awesome projects that we have built explained and then linked to the blog if its one of the done project.
