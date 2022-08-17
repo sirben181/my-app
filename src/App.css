@@ -5,7 +5,7 @@
   /* width:100%; */
 
 }
-.home-container, .project-container, .contact-container, .about-container{
+.home-container, .project-container, .blog-container, .about-container{
      display:flex;
      flex-direction:column;
      align-items:center;
