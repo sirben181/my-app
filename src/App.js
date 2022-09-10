@@ -10,6 +10,15 @@ import Projects from './pages/Projects';
 import Footer from './Footer';
 
 function App() {
+  const ClickLike=()=>{
+    console.log('like')
+  }
+  const comment=()=>{
+    console.log('comment')
+  }
+  const shareBlog=()=>{
+    console.log('share')
+  }
   return (
     <>
  <Router>
@@ -17,7 +26,9 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
          <Route path='/projects' element={<Projects/>}/>
-        <Route path='/blog' element={<Blog/>}/>
+        <Route path='/blog' element={<Blog ClickLike={ClickLike}
+        comment={comment}
+        shareBlog={shareBlog}/>}/>
         <Route path='/about' element={<About/>}/>
       </Routes>
       <Footer/>
