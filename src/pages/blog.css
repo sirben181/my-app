@@ -27,12 +27,16 @@
     min-height:60vh;
     margin:20px 0;
     padding:30px 0; 
+    border-radius:10px;
 } 
 .blog-body{
     display:flex;
     flex-direction:column;
-    justify-content:center;
-    text-align:center;
+    /* justify-content:center; */
+    align-content:center;
+    padding:20px;
+    min-height:50vh;
+    position:relative;
 
 }
 .blog-body div{
@@ -44,19 +48,42 @@
 .blog-footer{
     display:flex;
     text-align: center;
-    background:green;
+    justify-content:center;
+    /* background:green; */
     margin:10px;
+    /* padding:20px; */
+    position:absolute;
+    bottom:0px;
 
+}
+.blog-footer div{
+    margin:20px;
+    
 }
 .like p{
     display:flex;
-    align-items: flex-start;
+    justify-content: flex-start;
+    background: rgb(36, 241, 70);
+    padding:10px;
+    margin-right:30px;
+    border-radius:5px;
+    font-size:18px;
 }
 .comment p{
     display:flex;
-    text-align:center;
+    justify-content:center;
+    background:rgb(56, 151, 52);
+    padding:10px;
+    margin-right:30px;
+    border-radius:5px;
+    font-size:18px;
 }
 .share p{
     display:flex;
-    text-align:flex-end;
+    justify-content:flex-end;
+    background: rgb(76, 214, 48);
+    padding:10px;
+    margin-left:30px;
+    border-radius:5px;
+    font-size:18px;
 }

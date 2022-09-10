@@ -13,6 +13,18 @@ const Blog = () => {
               <p>This will require three files .html, .css, .js files <br /> 
               that are linked together. Also you can the inline and internal <br />
                styling can be done and also js files can be written. <br />
+               This is done using only js and it looks very cool
+               This will require three files .html, .css, .js files <br /> 
+              that are linked together. Also you can the inline and internal <br />
+               styling can be done and also js files can be written. <br />
+               This is done using only js and it looks very cool
+               This will require three files .html, .css, .js files <br /> 
+              that are linked together. Also you can the inline and internal <br />
+               styling can be done and also js files can be written. <br />
+               This is done using only js and it looks very cool
+               This will require three files .html, .css, .js files <br /> 
+              that are linked together. Also you can the inline and internal <br />
+               styling can be done and also js files can be written. <br />
                This is done using only js and it looks very cool</p>
             </div>
             <div className="blog-footer"> 
