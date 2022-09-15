@@ -29,9 +29,12 @@ const Blog = ({ClickLike,comment,shareBlog}) => {
                This is done using only js and it looks very cool</p>
             </div>
             <div className="blog-footer"> 
-              <div className="like"><button onClick={ClickLike}>Like</button></div>
-              <div className="comment"><button onClick={comment}>comment</button></div>
-              <div className="share"><button onClick={shareBlog}>share</button></div>
+                <div className="footer-btn-wrapper">
+                      <div className="footer-btns"><button  className="like"onClick={ClickLike}>Like</button>
+                            <button className="comment" onClick={comment}>comment</button>
+                            <button  className="share" onClick={shareBlog}>share</button>
+                      </div>
+                </div>
             </div>
           </div>
         </div>

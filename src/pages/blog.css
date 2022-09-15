@@ -33,7 +33,7 @@
     display:flex;
     flex-direction:column;
     /* justify-content:center; */
-    align-content:center;
+    align-items:center;
     padding:20px;
     min-height:50vh;
     position:relative;
@@ -47,8 +47,9 @@
 }
 .blog-footer{
     display:flex;
-    text-align: center;
+    align-items: center;
     justify-content:center;
+    width:90%;
     /* background:green; */
     margin:10px;
     /* padding:20px; */
@@ -56,10 +57,19 @@
     bottom:0px;
 
 }
-.blog-footer div{
-    margin:20px;
+.footer-btn-wrapper{
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+   align-items:center;
+   text-align:center;
+   width:100%;
+   padding:20px;
+   margin:30px;
+   background:#897;
     
 }
+.
 .blog-footer button{
     outline: none;
     border:none;
