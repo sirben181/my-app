@@ -99,3 +99,44 @@ padding-top:20px;}
     /* background: #000; */
     color:coral;
 }
+@media only screen  and (min-width:200px) and (max-width: 900px){
+    .profile-container{
+        display:flex;
+        flex-direction: column;
+        width:80vw;
+        height:50vh;
+    }
+    .profile-wrapper{
+        display:flex;
+        flex-direction: column;
+        margin:10px;
+        padding:10px;
+    }
+    .profile{
+        width:40vh;
+    }
+    .header{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left:100px;
+        text-align: center;
+    }
+    .header h3{
+        font-size:18px;
+        text-wrap: wrap;
+    }
+    .header span .dash{
+        font-size:18px;
+    }
+    .header p{
+        display:none;
+    }
+    .profile-story .title, .profile-body{
+        display:none;
+    }
+    .hitmeup a{
+        margin-left: 100px;
+        margin-top:40px;
+    }
+}
