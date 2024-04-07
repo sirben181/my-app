@@ -30,9 +30,18 @@ const Blog = ({ClickLike,comment,shareBlog}) => {
             </div>
             <div className="blog-footer"> 
                 <div className="footer-btn-wrapper">
-                      <div className="footer-btns"><button  className="like"onClick={ClickLike}>Like</button>
+                      <div className="blog-footer-btns">
+                         <div className="likeclass">
+                            <button  className="like"onClick={ClickLike}>Like</button>
+
+                         </div>
+                         <div className="commentclass">
                             <button className="comment" onClick={comment}>comment</button>
+
+                         </div>
+                         <div className="shareclass">
                             <button  className="share" onClick={shareBlog}>share</button>
+                         </div>
                       </div>
                 </div>
             </div>

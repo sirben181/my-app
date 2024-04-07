@@ -17,6 +17,7 @@ const Home = () => {
                   <h3>welcome to <span>  Our Projects </span></h3>
                   <div className="cards">
                         <div className="project-card">
+                         <div className='cards-wrapper'>
                             <div className="project-card-header">
                                 <h3> The length converter</h3>
                               </div>
@@ -28,8 +29,42 @@ const Home = () => {
                                   </button>
                                   </Link> 
                             </div>
+                            </div>
                         </div>
                         <div className="project-card">
+                         <div className='cards-wrapper'>
+                            <div className="project-card-header">
+                                <h3> hello this is the project </h3>
+                              </div>
+                              <div className="card-body">
+                                <img src={converter} alt="is here" />
+                                  <Link to='/projects'>
+                                <button className='btn-primary'>
+                                    Find out more
+                                  </button>
+                                  </Link> 
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="cards">
+                        <div className="project-card">
+                          <div className='cards-wrapper'>
+                            <div className="project-card-header">
+                                <h3> hello this is the project </h3>
+                              </div>
+                              <div className="card-body">
+                                <img src={converter} alt="is here" />
+                                  <Link to='/projects'>
+                                <button className='btn-primary'>
+                                    Find out more
+                                  </button>
+                                  </Link> 
+                            </div>
+                          </div>
+                        </div>
+                        <div className="project-card">
+                         <div className='cards-wrapper'>
                             <div className="project-card-header">
                                 <h3> hello this is the project </h3>
                               </div>
@@ -45,6 +80,22 @@ const Home = () => {
                     </div>
                     <div className="cards">
                         <div className="project-card">
+                         <div className='cards-wrapper'>
+                            <div className="project-card-header">
+                                <h3> hello this is the project </h3>
+                              </div>
+                              <div className="card-body">
+                                <img src={converter} alt="is here" />
+                                  <Link to='/projects'>
+                                <button className='btn-primary'>
+                                    Find out more
+                                  </button>
+                                  </Link> 
+                             </div>
+                            </div>
+                        </div>
+                        <div className="project-card">
+                         <div className='cards-wrapper'>
                             <div className="project-card-header">
                                 <h3> hello this is the project </h3>
                               </div>
@@ -56,46 +107,7 @@ const Home = () => {
                                   </button>
                                   </Link> 
                             </div>
-                        </div>
-                        <div className="project-card">
-                            <div className="project-card-header">
-                                <h3> hello this is the project </h3>
-                              </div>
-                              <div className="card-body">
-                                <img src={converter} alt="is here" />
-                                  <Link to='/projects'>
-                                <button className='btn-primary'>
-                                    Find out more
-                                  </button>
-                                  </Link> 
                             </div>
-                        </div>
-                    </div>
-                    <div className="cards">
-                        <div className="project-card">
-                            <div className="project-card-header">
-                                <h3> hello this is the project </h3>
-                              </div>
-                              <div className="card-body">
-                                <img src={converter} alt="is here" />
-                                  <Link to='/projects'>
-                                <button className='btn-primary'>
-                                    Find out more
-                                  </button>
-                                  </Link> 
-                            </div>
-                        </div>
-                        <div className="project-card">
-                            <div className="project-card-header">
-                                <h3> hello this is the project </h3>
-                              </div>
-                              <div className="card-body">
-                                <img src={converter} alt="is here" />
-                                  <Link to='/projects'>
-                                <button className='btn-primary'>
-                                    Find out more
-                                  </button>
-                                  </Link> 
                             </div>
                         </div>
                     </div>

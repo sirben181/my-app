@@ -8,10 +8,14 @@ import Blog from './pages/Blog';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Footer from './Footer';
+import { useState,useEffect } from 'react';
 
 function App() {
-  const ClickLike=()=>{
-    console.log('like')
+  const Like=useState(0)
+  const ClickLike=(e)=>{
+e.preventDefault()
+// useState()
+    console.log('Like')
   }
   const comment=()=>{
     console.log('comment')

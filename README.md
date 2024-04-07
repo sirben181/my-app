@@ -74,6 +74,23 @@ this is my portfolio website and it requires a sidebar, and
  home:
  will have a landing page, snapshot of profile, snapshot of projects, shortform of blogposts that willhave link to the posts themselves. 
  will,
+ projects;
+ these include:
+ #--converter project done with javascript
+ #--pharmacore clone-medical management systems-frontend(reactjs)-backend(nodejs-express)-database(MongoDB)
+ #--react online eccomerce store-react-redux-nodejs-mongo db
+ #--weather full stack app -MERN STACK -USING AN API
+ #-fully function facebook app--chatting app 
+ #--a complete video player app
+ #--business management systems
+ #--house searching webapp and and android app
+ #--transportation review webapp
+ #--personal blog about tech and my coding journey
+ #--coding teaching academy
+#-- town navigation app especially in nairobi using a google map api
+ #--drugs searching app searching in various websites
+ 
+
  blog:
  features of a gfood blog:
  #White Space around the content
