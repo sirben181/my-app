@@ -98,3 +98,20 @@ color:#f5f5f5;
 background-color:#164d24;
 border-radius:5px;
 }
+@media only screen  and (min-width:200px) and (max-width: 900px){
+     /* .menubars a{
+        display: none;
+     } */
+    .navmenu{
+        display:block;
+    }
+
+    .nav-menu-lists{
+        display: none;
+    }
+}
+@media only screen  and (min-width:900px) and (max-width: 1500px){ 
+    .menubars a{
+        display:none;
+    }
+ }
