@@ -10,7 +10,7 @@ const Home = () => {
          <div className="home-wrapper">
               <div className="home">
                   <img src={home} alt="swafi"/>
-                  <p>welcome and lets <br/>learn web development together</p>
+                  <p>welcome and lets <br/>learn web development <br/> together</p>
               </div>
                 <Profile />
                <div className="home-projects">
