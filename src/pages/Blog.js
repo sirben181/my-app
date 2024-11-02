@@ -36,8 +36,10 @@ const Blog = ({ClickLike,comment,shareBlog}) => {
 
                          </div>
                          <div className="commentclass">
+                          
+                            <input className="comment" type='input'/>
                             <button className="comment" onClick={comment}>comment</button>
-
+                                
                          </div>
                          <div className="shareclass">
                             <button  className="share" onClick={shareBlog}>share</button>
