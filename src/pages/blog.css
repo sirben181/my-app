@@ -21,10 +21,11 @@
 .blog{
     display:flex;
     flex-direction:column;
-    align-items:center;
+    /* align-items:center; */
     background: rgb(233, 226, 226);
     width:70vw;
     min-height:60vh;
+    max-height:200vh;
     margin:20px 0;
     padding:30px 0; 
     border-radius:10px;
@@ -35,9 +36,14 @@
     /* justify-content:center; */
     align-items:center;
     padding:20px;
-    min-height:50vh;
+    margin:30px;
+    min-height:100vh;
     position:relative;
 
+}
+.blog-body-wrapper{
+    display:flex;
+    flex-direction: column;
 }
 .blog-body div{
     margin-left:20px;
@@ -52,14 +58,14 @@
     justify-content:center;
     width:90%;
     /* background:green; */
-    /* margin:10px; */
-    /* padding:20px; */
+    /* margin:10px; 
+     padding:20px; */
     position:absolute;
     bottom:0px;
 
 }
 .footer-btn-wrapper{
-   display:inline-flex;
+   display:flex;
    flex-direction:column;
    justify-content:center;
    align-items:center;
