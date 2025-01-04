@@ -8,7 +8,9 @@ const About = () => {
         <h1>About</h1>
          <div className='about-body'>
           <Profile/>
-            <p> this is the best website for web devlopment stories and tips.</p>
+            <p> this is the best website for web devlopment stories and tips.
+              This is just amazing and lets be okay with it.
+            </p>
          </div>
       
 
