@@ -100,7 +100,7 @@ border-radius:5px;
 }
 @media only screen  and (min-width:200px) and (max-width: 900px){
      .menubars a{
-        /* display: none; */
+        display: none;
      }
     .navmenu{
         display:block;
