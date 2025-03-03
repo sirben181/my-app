@@ -99,6 +99,19 @@ background-color:#164d24;
 border-radius:5px;
 }
 @media only screen  and (min-width:200px) and (max-width: 900px){
+    .container{
+        display: flex;
+    flex-direction: column;
+    /* width:100%;
+    height:80px; */
+    /* background:rgb(51, 240, 51); */
+    position:fixed;
+    top:0;
+    z-index:10;
+    }
+    .navbar{display:block;
+    flex-direction: column;}
+    .menu{display:flex;}
      .menubars a{
         display: none;
      }
