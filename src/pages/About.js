@@ -11,6 +11,9 @@ const About = () => {
             <p> this is the best website for web devlopment stories and tips.
               This is just amazing and lets be okay with it.
             </p>
+            <p>
+              This has been inspired by paul
+            </p>
          </div>
       
 
