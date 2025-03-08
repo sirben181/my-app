@@ -26,9 +26,17 @@ const About = () => {
                                                            IF YES THEN LETS KNOW BY FILLING THE FORM BELOW.
                                                         </h3>
                                                     </div>
-                                                    <div className='form-body'id='form'>
+                                                    <div className='form-body'id='form'action='#'>
                                                         <div className='form-body-wrapper'>
-                                                            <label>YOUR NAME</label> 
+                                                            <label> ENTER YOUR NAME
+                                                              <input type='text'/></label> 
+                                                              <label>ENTER YOUR EMAIL
+                                                                <input type='text'/>
+                                                              </label>
+                                                              <label>ENTER YOUR DESCRIPTION
+                                                                <textarea type='markup'/>
+                                                              </label>
+                                                              <button type='submit'>SUBMIT</button>
                                                         </div>
 
                                                     </div>
