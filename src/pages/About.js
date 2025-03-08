@@ -8,15 +8,19 @@ const About = () => {
         <h1>About</h1>
          <div className='about'>
             <div className="about-header">
-          <Profile/>
+               <div className='about-header'>
+                    <Profile/>
+              </div>
             </div>
-            <div className='about'>
-            <p> this is the best website for web devlopment stories and tips.
-              This is just amazing and lets be okay with it.
-            </p>
-            <p>
-              This has been inspired by paul
-            </p>
+            <div className='about-body'>
+               <div className='about-body-wrapper'>
+                   <p> this is the best website for web devlopment stories and tips.
+                   This is just amazing and lets be okay with it.
+                   </p>
+                   <p>
+                        This has been inspired by paul
+                  </p>
+               </div>
             </div>
          </div>
       
