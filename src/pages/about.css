@@ -1,16 +1,17 @@
 *{box-sizing: border-box;}
 .about-container{display:flex;
-flex-direction:column;
-background:rgb(199, 191, 245);
-/* margin:20px; */
-min-height:100vh;
-width:100%;
+        flex-direction:column;
+        background:rgb(179, 172, 213);
+        /* margin:20px; */
+        min-height:100vh;
+        width:100%;
 
 }
 .about-wrapper{
-display:flex;
-flex-direction:column;
-margin:20px;
-min-height:100vh;
-width:100%;
-border-radius:15px;}
+        display:flex;
+        flex-direction:column;
+        margin:20px;
+        min-height:100vh;
+        width:100%;
+        border-radius:15px;
+}
