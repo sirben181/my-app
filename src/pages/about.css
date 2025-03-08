@@ -35,3 +35,42 @@
         justify-content:center;
         align-items: center;
 }
+.about-body-wrapper{
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+}
+.form-container{
+        display:flex;
+        flex-direction: column;
+        border-radius: 5px;
+        height:auto;
+        width:80vw;
+        align-items: center;
+}
+.form-wrapper{
+        display: flex;
+        flex-direction:column;
+        background:rgb(28,38,83);
+        margin:20px;
+        padding:20px;
+        border-radius:5px;
+}
+.form{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+
+}
+.form-header{
+        background:rgb(138, 134, 161);
+        border-radius:5px;
+        padding:20px;
+}
+.form-header h2{
+   color:#fff;
+   
+}
+.form-header h3{
+        color:#fff;
+}

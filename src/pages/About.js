@@ -14,12 +14,27 @@ const About = () => {
                           </div>
                           <div className='about-body'>
                                 <div className='about-body-wrapper'>
-                                        <p> this is the best website for web devlopment stories and tips.
-                                        This is just amazing and lets be okay with it.
-                                        </p>
-                                        <p>
-                                              This has been inspired by paul
-                                        </p>
+                                        <div className='form-container'>
+                                            <div className='form-wrapper'>
+                                                <div className='form'>
+                                                    <div className='form-header'>
+                                                       <h2>DO U LIKE THIS THIS WEBSITE AND WANT SOMETHING LIKE IT?
+                                                        <br/> DO U WANT SOMETHING FROM SCRATCH?
+                                                       <br/> DO U HAVE A DESIGN AND NEEDS IT ACTUALIZED INTO A WEBSITE?
+                                                       </h2>
+                                                        <h3>
+                                                           IF YES THEN LETS KNOW BY FILLING THE FORM BELOW.
+                                                        </h3>
+                                                    </div>
+                                                    <div className='form-body'id='form'>
+                                                        <div className='form-body-wrapper'>
+                                                            <label>YOUR NAME</label> 
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                 </div>
                           </div>
             </div>
