@@ -29,12 +29,12 @@ const About = () => {
                                                     <div className='form-body'id='form'action='#'>
                                                         <div className='form-body-wrapper'>
                                                             <label> ENTER YOUR NAME
-                                                              <input type='text'/></label> 
+                                                              <input type='text'  placeholder='YOUR NAME'/></label> 
                                                               <label>ENTER YOUR EMAIL
-                                                                <input type='text'/>
+                                                                <input type='text' placeholder='YOUR EMAIL'/>
                                                               </label>
                                                               <label>ENTER YOUR DESCRIPTION
-                                                                <textarea type='markup'/>
+                                                                <textarea type='markup' placeholder='THE DESCRIPTION OF MESSAGE'/>
                                                               </label>
                                                               <button type='submit'>SUBMIT</button>
                                                         </div>
