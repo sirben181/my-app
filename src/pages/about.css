@@ -79,6 +79,10 @@
         flex-direction:column;
         /* height:65px; */
         /* width:600px; */
+        background:#bfd0dc;
+        margin:10px;
+        padding:10px;
+        border-radius:10px;
 }
 .form-body-wrapper{
         display:flex;
@@ -88,5 +92,10 @@
 
 }
 .form-body-wrapper label{
-        display:block;
+        display:flex;
+        flex-direction:column;
+        height:70px;
+        width:300px;
+        color:#fff;
+        border:none;
 }
