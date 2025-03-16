@@ -124,3 +124,10 @@ button{
        align-items: center;
        color:#fff;
 }
+@media only screen  and (min-width:200px) and (max-width: 900px){
+        .form-container{
+                width:70vw;
+                padding:10px;
+                margin:10px;
+        }
+}
