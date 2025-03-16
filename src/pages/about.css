@@ -148,12 +148,13 @@ button{
                 width:70vw;
                 padding:10px;
                 margin:10px;
+                height: auto;
         }
       .form-wrapper{
         display:flex;
         flex-direction: column;
         justify-content: center;
-        width:65vw;
+        width:80vw;
 
       }
       .form{
@@ -161,9 +162,9 @@ button{
         flex-direction:column;
         align-content: center;
         justify-content: center;
-        padding:20px;
-        width:100%;
-        margin:20px;
+        padding:10px;
+        width:70vw;
+        margin:10px;
       }
       .form h2{
         size:30px;
@@ -171,15 +172,34 @@ button{
       .form-body{
         display: flex;
         flex-direction:column;
+        justify-content: center;
         align-items: center;
         text-overflow:none;
-        margin:20px;
+        /* margin:20px; */
+        width:55vw;
 
       }
+      .form-body-wrapper{
+        width:55vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .form-body label{
+        display:block;
+        justify-items: center;
+      }
       .form-body input{
-        width:fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:50vw;
+        
       }
       .form-body textarea{
+        display:block;
+        padding:10px;
         width:fit-content;
         align-content: center;
       }
