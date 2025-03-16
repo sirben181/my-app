@@ -125,9 +125,62 @@ button{
        color:#fff;
 }
 @media only screen  and (min-width:200px) and (max-width: 900px){
+        .about-container{
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+                padding:10px;
+        }
+        .about-wrapper{
+                display:flex;
+                flex-direction: column;
+                width:80vw;
+        }
+        .about-wrapper h1{
+                margin:20px;
+                padding:20px;
+        }
+        .about{
+                display:flex;
+                flex-direction:column;
+        }
         .form-container{
                 width:70vw;
                 padding:10px;
                 margin:10px;
         }
+      .form-wrapper{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        width:65vw;
+
+      }
+      .form{
+        display:flex;
+        flex-direction:column;
+        align-content: center;
+        justify-content: center;
+        padding:20px;
+        width:100%;
+        margin:20px;
+      }
+      .form h2{
+        size:30px;
+      }
+      .form-body{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        text-overflow:none;
+        margin:20px;
+
+      }
+      .form-body input{
+        width:fit-content;
+      }
+      .form-body textarea{
+        width:fit-content;
+        align-content: center;
+      }
 }
