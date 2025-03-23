@@ -11,9 +11,7 @@ const Blog = ({ClickLike,comment,shareBlog}) => {
           <div className="blog-body">
             <div className='blog-body-wrapper'>
                    <div className="blog-content">
-                      <div>
-                        
-                      </div>
+                      
                           <p>This will require three files .html, .css, .js files  
                           that are linked together. Also you can the inline and internal 
                           styling can be done and also js files can be written. 
