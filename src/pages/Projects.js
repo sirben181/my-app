@@ -4,6 +4,7 @@ import  converter from '../images/projects/conver2.png'
 import  andela from '../images/projects/Andela.png'
 import  facebook from '../images/projects/facebook.png'
 import  weather from '../images/projects/weather.png'
+import  passwordgen from '../images/projects/passwordgen.png'
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 const Projects = () => {
   return (
@@ -46,22 +47,20 @@ const Projects = () => {
                     <h3>Facebook clone</h3>
                     <div className="converter-body facebook_clone-body">
                         <img src={facebook} alt="facebook  here" />
-                        <p>This converter converts length from the smallest unit that is commonly used. You can convert from mm all the way to the mile.
-                            You can interconvert  them anyhowly.
+                        <p>This a facebook clone that you can loggin using the jwt authorization and there are feeds and using the firebase db.
                             this is done using a little javascript to make the conversion
                        </p>
                        <span>Click here for the github link<ArrowRightAltIcon className='arrowicon'/> <a  href="https://www.github.com/sirben181/fb-clone" target='_blank' rel="noreferrer">Github link</a></span>
                    </div>
                  </div> 
-                 <div className="converter">
-                      <h3>Length converter</h3>
-                      <div className="converter-body">
-                          <img src={converter} alt="converter here" />
-                            <p>This converter converts length from the smallest unit that is commonly used. You can convert from mm all the way to the mile.
-                                You can interconvert  them anyhowly.
+                 <div className="converter passswordgen">
+                      <h3>Password generator</h3>
+                      <div className="converter-body passwordgen-body">
+                          <img src={passwordgen} alt="password gen here" />
+                            <p>This is password generator using javascript.
                                 this is done using a little javascript to make the conversion
                             </p>
-                            <span>Click here for the github link<ArrowRightAltIcon className='arrowicon'/> <a  href="https://www.github.com/sirben181/converter" target='_blank' rel="noreferrer">Github link</a></span>
+                            <span>Click here for the github link<ArrowRightAltIcon className='arrowicon'/> <a  href="https://www.github.com/sirben181/passwordgen" target='_blank' rel="noreferrer">Github link</a></span>
                      </div>
                  </div> 
                  <div className="converter">
