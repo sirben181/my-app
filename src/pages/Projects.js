@@ -1,6 +1,8 @@
 import React from 'react'
 import './projects.css'
 import  converter from '../images/projects/conver2.png'
+import  andela from '../images/projects/Andela.png'
+import  facebook from '../images/projects/facebook.png'
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 const Projects = () => {
   return (
@@ -20,15 +22,13 @@ const Projects = () => {
                         <span>Click here for the github link<ArrowRightAltIcon className='arrowicon'/> <a  href="https://www.github.com/sirben181/converter" target='_blank' rel="noreferrer">Github link</a></span>
                       </div>
                  </div>
-                 <div className="converter">
-                    <h3>Length converter</h3>
-                    <div className="converter-body">
-                        <img src={converter} alt="converter here" />
-                           <p>This converter converts length from the smallest unit that is commonly used. You can convert from mm all the way to the mile.
-                             You can interconvert  them anyhowly.
-                            this is done using a little javascript to make the conversion
+                 <div className="converter Andela_clone">
+                    <h3>Andela clone</h3>
+                    <div className="converter-body Andela_clone-body">
+                        <img src={andela} alt="Andela clone" />
+                           <p>This is Andela clone build using react. Its clone for a previous Andela clone.
                          </p>
-                         <span>Click here for the github link<ArrowRightAltIcon className='arrowicon'/> <a  href="https://www.github.com/sirben181/converter" target='_blank' rel="noreferrer">Github link</a></span>
+                         <span>Click here for the github link<ArrowRightAltIcon className='arrowicon'/> <a  href="https://github.com/sirben181/andela-clone-app" target='_blank' rel="noreferrer">Github link</a></span>
                      </div>
                  </div>
                  <div className="converter">
@@ -42,15 +42,15 @@ const Projects = () => {
                          <span>Click here for the github link<ArrowRightAltIcon className='arrowicon'/> <a  href="https://www.github.com/sirben181/converter" target='_blank' rel="noreferrer">Github link</a></span>
                     </div>
                  </div>
-                 <div className="converter">
-                    <h3>Length converter</h3>
-                    <div className="converter-body">
-                        <img src={converter} alt="converter here" />
+                 <div className="converter facebook_clone">
+                    <h3>Facebook clone</h3>
+                    <div className="converter-body facebook_clone-body">
+                        <img src={facebook} alt="facebook  here" />
                         <p>This converter converts length from the smallest unit that is commonly used. You can convert from mm all the way to the mile.
                             You can interconvert  them anyhowly.
                             this is done using a little javascript to make the conversion
                        </p>
-                       <span>Click here for the github link<ArrowRightAltIcon className='arrowicon'/> <a  href="https://www.github.com/sirben181/converter" target='_blank' rel="noreferrer">Github link</a></span>
+                       <span>Click here for the github link<ArrowRightAltIcon className='arrowicon'/> <a  href="https://www.github.com/sirben181/fb-clone" target='_blank' rel="noreferrer">Github link</a></span>
                    </div>
                  </div> 
                  <div className="converter">
