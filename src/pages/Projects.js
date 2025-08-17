@@ -3,6 +3,7 @@ import './projects.css'
 import  converter from '../images/projects/conver2.png'
 import  andela from '../images/projects/Andela.png'
 import  facebook from '../images/projects/facebook.png'
+import  weather from '../images/projects/weather.png'
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 const Projects = () => {
   return (
@@ -31,15 +32,14 @@ const Projects = () => {
                          <span>Click here for the github link<ArrowRightAltIcon className='arrowicon'/> <a  href="https://github.com/sirben181/andela-clone-app" target='_blank' rel="noreferrer">Github link</a></span>
                      </div>
                  </div>
-                 <div className="converter">
-                     <h3>Length converter</h3>
-                    <div className="converter-body">
-                        <img src={converter} alt="converter here" />
-                         <p>This converter converts length from the smallest unit that is commonly used. You can convert from mm all the way to the mile.
-                              You can interconvert  them anyhowly.
+                 <div className="converter weather_app">
+                     <h3>Weather app</h3>
+                    <div className="converter-body weather_app-body">
+                        <img src={weather} alt="weather here" />
+                         <p>This a weather app that you can enter a city and you get the weather of that certain city.
                               this is done using a little javascript to make the conversion
                          </p>
-                         <span>Click here for the github link<ArrowRightAltIcon className='arrowicon'/> <a  href="https://www.github.com/sirben181/converter" target='_blank' rel="noreferrer">Github link</a></span>
+                         <span>Click here for the github link<ArrowRightAltIcon className='arrowicon'/> <a  href="https://www.github.com/sirben181/myWeather_app" target='_blank' rel="noreferrer">Github link</a></span>
                     </div>
                  </div>
                  <div className="converter facebook_clone">
