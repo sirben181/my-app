@@ -5,6 +5,7 @@ import  andela from '../images/projects/Andela.png'
 import  facebook from '../images/projects/facebook.png'
 import  weather from '../images/projects/weather.png'
 import  passwordgen from '../images/projects/passwordgen.png'
+import  jsvalidation from '../images/projects/jsvalidation.png'
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 const Projects = () => {
   return (
@@ -63,15 +64,14 @@ const Projects = () => {
                             <span>Click here for the github link<ArrowRightAltIcon className='arrowicon'/> <a  href="https://www.github.com/sirben181/passwordgen" target='_blank' rel="noreferrer">Github link</a></span>
                      </div>
                  </div> 
-                 <div className="converter">
-                        <h3>Length converter</h3>
-                        <div className="converter-body">
-                          <img src={converter} alt="converter here" />
-                          <p>This converter converts length from the smallest unit that is commonly used. You can convert from mm all the way to the mile.
-                          You can interconvert  them anyhowly.
+                 <div className="converter jsvalidation">
+                        <h3>JS validate forms</h3>
+                        <div className="converter-body jsvalidate-body">
+                          <img src={jsvalidation} alt="js-validate here" />
+                          <p>This Js validation form done in Js.
                           this is done using a little javascript to make the conversion
                           </p>
-                        <span>Click here for the github link<ArrowRightAltIcon className='arrowicon'/> <a  href="https://www.github.com/sirben181/converter" target='_blank' rel="noreferrer">Github link</a></span>
+                        <span>Click here for the github link<ArrowRightAltIcon className='arrowicon'/> <a  href="https://www.github.com/sirben181/js-validate1" target='_blank' rel="noreferrer">Github link</a></span>
             </div>
           </div>
         </div>
