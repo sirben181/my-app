@@ -54,31 +54,53 @@ const Home = () => {
                                    </div> 
                                        <div className="card-container">
                                            <div className='card'>
-                                              <div className="project-card-header">
-                                                       <h3> The length converter</h3>
-                                               </div>
-                                               <div className="card-body">
-                                                     <img src={passwordgen} alt="is here" />
-                                                     <Link to='/projects'>
-                                                      <button className='btn-primary'>
-                                                         Find out more
-                                                      </button>
-                                                       </Link> 
+                                                <div className="card-wrapper">
+
+                                                    <div className="project-card-header">
+                                                            <h3> The length converter</h3>
+                                                    </div>
+                                                    <div className="card-body">
+                                                            <img src={converter} alt="is here" />
+                                                            <Link to='/projects'>
+                                                            <button className='btn-primary'>
+                                                                Find out more
+                                                            </button>
+                                                            </Link> 
+                                                        </div>
+                                                </div>
+                                                <div className="card">
+                                                    <div className='card-wrapper'>
+
+                                                            <div className="project-card-header">
+                                                                    <h3> The length converter</h3>
+                                                            </div>
+                                                            <div className="card-body">
+                                                                    <img src={passwordgen} alt="is here" />
+                                                                    <Link to='/projects'>
+                                                                    <button className='btn-primary'>
+                                                                        Find out more
+                                                                    </button>
+                                                                    </Link> 
+                                                                </div>
+                                                    </div>
+                                                        
                                                 </div>
                                             </div>
                                             <div className="card">
-                                                <div className="project-card-header">
-                                                  <h3> hello this is the project </h3>
-                                                 </div>
-                                                 <div className="card-body">
-                                                     <img src={facebook} alt="is here" />
-                                                     <Link to='/projects'>
-                                                     <button className='btn-primary'>
-                                                      Find out more
-                                                     </button>
-                                                     </Link> 
-                                                 </div>
+                                                <div className='card-wrapper'>
+                                                    <div className="project-card-header">
+                                                         <h3> hello this is the project </h3>
+                                                    </div>
+                                                    <div className="card-body">
+                                                            <img src={facebook} alt="is here" />
+                                                            <Link to='/projects'>
+                                                                <button className='btn-primary'>
+                                                                        Find out more
+                                                                </button>
+                                                            </Link> 
+                                                    </div>
                                           
+                                                </div>
                                         
                                            </div>
                                       </div> 

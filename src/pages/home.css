@@ -250,6 +250,8 @@ color:#000;
 
 .project-card-header h3{
     font-size: 18px;
+    display:flex;
+    border-bottom: none;
 }
 .card-body{
     display:flex;
