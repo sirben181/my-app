@@ -109,7 +109,7 @@ const Home = () => {
                                                                     </div>
                                                             
                                                             </div>
-                                                        </div> 
+                                                        
                                                             <div className='card'>
                                                                 <div className="project-card-header">
                                                                         <h3> weather app</h3>
@@ -138,6 +138,7 @@ const Home = () => {
                                                             
                                                             </div>
                                                         </div> 
+                                                        </div>
                                 </div>
                        </div>
   )
