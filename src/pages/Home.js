@@ -43,7 +43,7 @@ const Home = () => {
                                                                                 </Link> 
                                                                             </div>
                                                                 </div>
-                                                                </div>
+                                                            
                                                                 <div className="card">
                                                                     <div className="project-card-header">
                                                                     <h3> hello this is the project </h3>
@@ -58,7 +58,8 @@ const Home = () => {
                                                                     </div>
                                                             </div>
                                                     
-                                                        
+                                                        </div>
+                                                        <div className="card-wrapper"> 
                                                                 
                                                             <div className='card'>
 
@@ -90,8 +91,9 @@ const Home = () => {
                                                                                     </div>
                                                                         </div>
                                                                             
-                                                                    </div>
-                                                                </div>
+                                                                  </div>
+                                                                  <div className="card-wrapper"> 
+                                                               
                                                                 <div className="card">
                                                         
                                                                         <div className="project-card-header">
@@ -108,7 +110,7 @@ const Home = () => {
                                                             
                                                                     </div>
                                                             
-                                                            </div>
+                                                         
                                                         
                                                             <div className='card'>
                                                                 <div className="project-card-header">
@@ -122,7 +124,9 @@ const Home = () => {
                                                                         </button>
                                                                         </Link> 
                                                                     </div>
-                                                                </div>
+                                                                    </div>
+                                                                    <div className="card-wrapper"> 
+                                                
                                                                 <div className="card">
                                                                     <div className="project-card-header">
                                                                     <h3> hello this is the project </h3>
@@ -136,11 +140,17 @@ const Home = () => {
                                                                         </Link> 
                                                                     </div>
                                                             
+                                                                </div>
                                                             </div>
-                                                        </div> 
                                                         </div>
-                                </div>
-                       </div>
+                                                </div>
+                                                        
+                                                 </div>       
+                                        </div>
+                                </div> 
+                        </div>
+                 </div>
+        </div>
   )
 }
 

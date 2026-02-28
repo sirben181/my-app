@@ -107,6 +107,16 @@
     width:120vw;
 
 }
+.card-wrapper{display:flex;
+    justify-content: center;
+    margin-top:15px;
+    margin-bottom: 15px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:20px;
+    height:60vh;
+    width:120vw;
+}
 .card{
     display:flex;
     flex-direction: column;
