@@ -59,7 +59,7 @@ const Home = () => {
                                                             </div>
                                                     
                                                         </div>
-                                                        <div className="card-wrapper"> 
+                                                        {/* <div className="card-wrapper"> 
                                                                 
                                                             <div className='card'>
 
@@ -125,6 +125,7 @@ const Home = () => {
                                                                         </Link> 
                                                                     </div>
                                                                     </div>
+                                                                 </div>
                                                                     <div className="card-wrapper"> 
                                                 
                                                                 <div className="card">
@@ -141,11 +142,11 @@ const Home = () => {
                                                                     </div>
                                                             
                                                                 </div>
-                                                            </div>
-                                                        </div>
+                                                          </div>*/}
+                                                        </div> 
                                                 </div>
                                                         
-                                                 </div>       
+                                                       
                                         </div>
                                 </div> 
                         </div>
